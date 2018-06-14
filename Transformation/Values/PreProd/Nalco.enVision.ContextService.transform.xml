@@ -1,0 +1,8 @@
+<data>
+    <include path="..\..\Keys\Nalco.enVision.ContextService.Web.params.WithoutEncryption.xml" />
+    <values>
+      <connection-string>Integrated Security=true;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb20;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-string>
+      <connection-strings>Integrated Security=true;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb20;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-strings>
+		
+	</values>
+</data>

@@ -1,0 +1,45 @@
+<!--
+    Contains parameters for the Web.config file that belongs to Mozart web application.
+  -->
+
+<data>
+  <nodes>
+    <!--  Application Settings -->
+    <_parameter _name="admin-reports-link" _xpath="//configuration/appSettings/add[@key='AdminReportsLink']/@value" />
+    <_parameter _name="reading-calculation" _xpath="//configuration/appSettings/add[@key='ReadingCalculation']/@value" />
+    <_parameter _name="from-email" _xpath="//configuration/appSettings/add[@key='FromEmail']/@value" />
+    <_parameter _name="to-email" _xpath="//configuration/appSettings/add[@key='ToEmail']/@value" />
+    <_parameter _name="sensors-dashboard-edit-url" _xpath="//configuration/appSettings/add[@key='Sensors.Dashboard.EditUrl']/@value" />
+    <_parameter _name="nalco360-reports-edit-url" _xpath="//configuration/appSettings/add[@key='Nalco360.Reports.EditUrl']/@value" />
+    <_parameter _name="search-location-api-address" _xpath="//configuration/appSettings/add[@key='SearchLocationApiAddress']/@value" />
+    <_parameter _name="mdemvc-page-url" _xpath="//configuration/appSettings/add[@key='MDEMVCPageUrl']/@value" />
+    <_parameter _name="mde-config-page-url" _xpath="//configuration/appSettings/add[@key='MDEConfigPageUrl']/@value" />
+    <_parameter _name="data-charting" _xpath="//configuration/appSettings/add[@key='DataCharting']/@value" />
+    <_parameter _name="configurator-link" _xpath="//configuration/appSettings/add[@key='ConfiguratorLink']/@value" />
+    <_parameter _name="next-gen-upload-file-location" _xpath="//configuration/appSettings/add[@key='NextGenUploadFileLocation']/@value" />
+    <_parameter _name="envision-app-service-base-url" _xpath="//configuration/appSettings/add[@key='EnvisionAppServiceBaseUrl']/@value" />
+    <_parameter _name="cls-search-action-url" _xpath="//configuration/appSettings/add[@key='CLSSearchActionURL']/@value" />
+    <_parameter _name="basic-search-url" _xpath="//configuration/appSettings/add[@key='BasicSearchURL']/@value" />
+    <_parameter _name="get-user-access" _xpath="//configuration/appSettings/add[@key='GetUserAccess']/@value" />
+    <_parameter _name="context-service-client-base-url" _xpath="//configuration/appSettings/add[@key='ContextServiceClientBaseURL']/@value" />
+    <_parameter _name="context-service-server-base-url" _xpath="//configuration/appSettings/add[@key='ContextServiceServerBaseURL']/@value" />
+    <_parameter _name="tcd-configurator-url" _xpath="//configuration/appSettings/add[@key='TCDConfiguratorURL']/@value" />
+    <_parameter _name="search-service-url" _xpath="//configuration/appSettings/add[@key='Search.Service.Url']/@value" />
+
+
+    <!-- Miscellaneous -->
+    <_parameter _name="connection-string" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="false" />
+    <_parameter _name="cube-connection-string" _xpath="//configuration/connectionStrings/add[@name='TcdCubeConnection']/@connectionString" _encrypted="false" />
+	<_parameter _name="apperrorlog-dbconnection" _xpath="//configuration/connectionStrings/add[@name='AppErrorLogDbConnection']/@connectionString" _encrypted="false" />
+
+
+    <_parameter _name="myservice-connection-string" _xpath="//configuration/applicationSettings//setting[@name='MyServiceConnection']/value" _encrypted="false" />
+    <_parameter _name="connection-strings" _xpath="//configuration/applicationSettings//setting[@name='ConnectionString']/value" _encrypted="false" />
+    <_parameter _name="debug" _xpath="//configuration/system.web/compilation/@debug" />
+	
+	 <_parameter _name="sitemindermodules" _xpath="//configuration/system.webServer" _create-or-update="modules"/>
+	 <_parameter _name="siteminderhandlers" _xpath="//configuration/system.webServer" _create-or-update="handlers"/>   
+	 <_parameter _name="is-apiFilters" _xpath="//configuration/system.webServer" _create-or-update="isapiFilters"/>	
+
+  </nodes>
+</data>

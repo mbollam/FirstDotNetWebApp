@@ -1,0 +1,11 @@
+<data>
+    <include path="..\..\Keys\Nalco.enVision.ERBService.Web.params.WithoutEncryption.xml" />
+
+    <values>
+        <context-service-server-base-url>http://usnape4tcap03s:5500/api"</context-service-server-base-url>
+        <connection-string>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-string>
+    		<cube-connection-string>Provider=MSOLAP3.0;Integrated Security=SSPI;Initial Catalog=TCDPreProd;Data Source=USNAPWPDB90</cube-connection-string>
+    		<elmah-sqlserver>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</elmah-sqlserver>
+    		<connection-strings>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-strings>
+	</values>
+</data>

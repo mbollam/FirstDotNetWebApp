@@ -1,0 +1,13 @@
+<!--
+    Contains parameters for the Web.config file that belongs to Mozart web application.
+  -->
+
+<data>
+    <nodes>
+        <!-- Miscellaneous -->
+        <_parameter _name="connection-string" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="true" />
+				
+		<_parameter _name="connection-strings" _xpath="//configuration/applicationSettings/CustomerContextService.Properties.Settings/setting/value/add[@name='DefaultConnection']/@connectionString" _encrypted="true" />
+		
+    </nodes>
+</data>

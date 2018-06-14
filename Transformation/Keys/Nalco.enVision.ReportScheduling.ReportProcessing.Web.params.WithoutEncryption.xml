@@ -1,0 +1,44 @@
+<!--
+    Contains parameters for the Web.config file that belongs to Mozart web application.
+  -->
+
+<data>
+    <nodes>
+        <!-- Miscellaneous -->
+        <_parameter _name="connection-string" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="false" />
+		
+		<!--  App Settings -->
+		<_parameter _name="support-email" _xpath="//configuration/appSettings/add[@key='SupportEmail']/@value" />
+		<_parameter _name="basic-search-url" _xpath="//configuration/appSettings/add[@key='BasicSearchURL']/@value" />
+		
+		<!--  Application Settings -->
+		<_parameter _name="minutes-before-retry" _xpath="//configuration/applicationSettings//setting[@name='MinutesBeforeRetry']/value" />
+		<_parameter _name="minutes-for-time-out" _xpath="//configuration/applicationSettings//setting[@name='MinutesForTimeOut']/value" />
+		<_parameter _name="max-attempts" _xpath="//configuration/applicationSettings//setting[@name='MaxAttempts']/value" />
+		<_parameter _name="pdf-source-path" _xpath="//configuration/applicationSettings//setting[@name='PDFSourcePath']/value" />
+				
+		<_parameter _name="report-service-url" _xpath="//configuration/applicationSettings//setting[@name='ReportServiceURL']/value" />
+		<_parameter _name="service-login" _xpath="//configuration/applicationSettings//setting[@name='ServiceLogin']/value" />
+		<_parameter _name="service-password" _xpath="//configuration/applicationSettings//setting[@name='ServicePassword']/value" />
+		
+		<_parameter _name="chart-server-url" _xpath="//configuration/applicationSettings//setting[@name='ChartServerURL']/value" />
+		
+		<_parameter _name="phanthom-js-exe-path" _xpath="//configuration/applicationSettings//setting[@name='PhanthomJSExePath']/value" />
+		<_parameter _name="hard-code-recipients" _xpath="//configuration/applicationSettings//setting[@name='HardCodeRecipients']/value" />
+		
+		<_parameter _name="pdf-share-path" _xpath="//configuration/applicationSettings//setting[@name='PDFSharePath']/value" />
+		<_parameter _name="smtp-user-name" _xpath="//configuration/applicationSettings//setting[@name='SMTPUserName']/value" />
+		<_parameter _name="smtp-password" _xpath="//configuration/applicationSettings//setting[@name='SMTPPassword']/value" />
+		<_parameter _name="smtp-domain" _xpath="//configuration/applicationSettings//setting[@name='SMTPDomain']/value" />
+		<_parameter _name="from-email-address" _xpath="//configuration/applicationSettings//setting[@name='FromEmailAddress']/value" />
+		<_parameter _name="service-prep-report-id" _xpath="//configuration/applicationSettings//setting[@name='ServicePrepReportId']/value" />
+		<_parameter _name="service-prep-report-userid" _xpath="//configuration/applicationSettings//setting[@name='ServicePrepReportUserID']/value" />
+		<_parameter _name="from-email-display" _xpath="//configuration/applicationSettings//setting[@name='FromEmailDisplay']/value" />
+		<_parameter _name="mail-Settings" _xpath="//configuration/system.net" _create-or-update="mailSettings"/>
+    <_parameter _name="log4net-queueprocesslog" _xpath="//log4net/appender[@name='QueueProcessLog']/file/value" />
+      <_parameter _name="log4net-schedulerlog" _xpath="//log4net/appender[@name='SchedulerLog']/file/value" />
+      
+
+
+    </nodes>
+</data>

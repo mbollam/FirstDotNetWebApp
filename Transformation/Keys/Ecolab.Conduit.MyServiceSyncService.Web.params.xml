@@ -1,0 +1,15 @@
+<data>
+    <nodes>
+        <!-- Miscellaneous -->
+        <_parameter _name="connection-string" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="true" />
+		<_parameter _name="my-service-connection-string" _xpath="//configuration/connectionStrings/add[@name='MyServiceConnection']/@connectionString" _encrypted="true" />
+        <_parameter _name="tcd-cube-connection-string" _xpath="//configuration/connectionStrings/add[@name='TcdCubeConnection']/@connectionString" _encrypted="true" />
+		<_parameter _name="hc-forms-connection-string" _xpath="//configuration/connectionStrings/add[@name='HCFormsConnection']/@connectionString" _encrypted="true" />
+		      
+		<!--  App Settings -->
+        <_parameter _name="export-path" _xpath="//configuration/appSettings/add[@key='ExportPath']/@value" />
+      <_parameter _name="enable-washfloor-sync" _xpath="//configuration/appSettings/add[@key='EnableWashFloorSync']/@value" />
+		<_parameter _name="timer-auto-reset" _xpath="//configuration/applicationSettings//setting[@name='TimerAutoReset']/value" />
+		
+    </nodes>
+</data>

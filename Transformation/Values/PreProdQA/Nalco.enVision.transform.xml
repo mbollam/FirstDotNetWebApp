@@ -1,0 +1,23 @@
+<data>
+  <include path="..\..\Keys\Nalco.enVision.Web.params.WithoutEncryption.xml" />
+
+  <values>
+    <envision-app-service-base-url>http://usnape4tcap03s:5500/</envision-app-service-base-url>
+    <cls-search-action-url>http://usnape4tcap03s:5500/Hierarchy/</cls-search-action-url>
+    <basic-search-url>http://usnape4tcap03s:5500/api</basic-search-url>
+    <get-user-access>http://usnape4tcap03s:5500/locations/HasLocationAccess?facilityId={0}&amp;userid={1}</get-user-access>
+    <context-service-client-base-url>http://usnape4tcap03s:5500/api/</context-service-client-base-url>
+    <context-service-server-base-url>http://usnape4tcap03s:5500/api/</context-service-server-base-url>
+    <tcd-configurator-url>http://USNAPWPTC22:1100/</tcd-configurator-url>
+
+
+
+    <connection-string>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-string>
+    <cube-connection-string>Provider=MSOLAP3.0;Integrated Security=SSPI;Initial Catalog=TCDPreProd;Data Source=USNAPWPDB90</cube-connection-string>
+    <myservice-connection-string>Integrated Security=false;User ID=SVC_SSRS_Conduit;Password=N$jay10!;Initial Catalog=Myservice;Data Source=USEAGAN1608S;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=6000;</myservice-connection-string>
+    <connection-strings>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-strings>
+    <apperrorlog-dbconnection>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPdb90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</apperrorlog-dbconnection>
+
+    <debug>false</debug>
+  </values>
+</data>

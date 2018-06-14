@@ -1,0 +1,9 @@
+<data>
+    <include path="..\..\Keys\Ecolab.TCDConfigurator.Web.params.WithoutEncryption.xml" />
+
+    <values>
+      <connection-string>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPDB90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=600</connection-string>
+      <myservice-connection-string>MyServiceConnection" connectionString="Integrated Security=false;User ID=tcdwebuser;Password=Usnapwpdb90;Initial Catalog=myServicePreProdQA;Data Source=USNAPWPDB90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=6000;</myservice-connection-string>
+      <elmah-express>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPDB90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=600</elmah-express>
+	</values>
+</data>

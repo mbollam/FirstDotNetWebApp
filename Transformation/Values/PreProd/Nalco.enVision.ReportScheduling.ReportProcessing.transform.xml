@@ -1,0 +1,34 @@
+<data>
+    <include path="..\..\Keys\Nalco.enVision.ReportScheduling.ReportProcessing.Web.params.WithoutEncryption.xml" />
+    <values>
+        <connection-string>Integrated Security=true;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPDB20;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=60;</connection-string>
+				
+		<support-email>hari_rao@epam.com</support-email>
+		<basic-search-url>http://usnape4tcap03s:4400/</basic-search-url>
+		
+		<minutes-before-retry>10</minutes-before-retry>
+		<minutes-for-time-out>10</minutes-for-time-out>
+		<max-attempts>3</max-attempts>
+		<pdf-source-path></pdf-source-path>
+		<report-service-url>http://usnape4tcap03s:3300/</report-service-url>
+		<service-login>dirk.de.brabanter@ecolab.com</service-login>
+		<service-password>3DTWeb09</service-password>
+		<chart-server-url>http://127.0.0.1:3003</chart-server-url>
+		<phanthom-js-exe-path>E:\Reports scheduling service\Highcharts-4.2.0\js</phanthom-js-exe-path>
+		<hard-code-recipients>True</hard-code-recipients>
+		<pdf-share-path>E:\Reports scheduling service\PDF</pdf-share-path>
+		<smtp-user-name></smtp-user-name>
+		<smtp-password></smtp-password>
+		<smtp-domain></smtp-domain>
+		<from-email-address>NoReplyPreprod@ecolab.com</from-email-address>
+     <service-prep-report-id>27</service-prep-report-id>
+     <service-prep-report-userid>3</service-prep-report-userid>		
+      <mail-Settings>
+        <smtp>          
+          <network host="USNAPSMTP01" port="25" />
+        </smtp>
+      </mail-Settings>
+      <log4net-queueprocesslog>E:\Reports scheduling service\Logs\QueueProcess.log</log4net-queueprocesslog>
+      <log4net-schedulerlog>E:\Reports scheduling service\Logs\Sechduler.log</log4net-schedulerlog>
+	</values>
+</data>

@@ -1,0 +1,8 @@
+<data>
+    <include path="..\..\Keys\Ecolab.TCDConfigurator.Web.params.WithoutEncryption.xml" />
+    <values>
+        <connection-string>Integrated Security=true;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPDB20;</connection-string>
+    		<myservice-connection-string>Integrated Security=false;User ID=SVC_SSRS_Conduit;Password=N$jay10!;Initial Catalog=Myservice;Data Source=USEAGAN1608S;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=6000;</myservice-connection-string>
+    		<elmah-express>Integrated Security=true;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPDB20;</elmah-express>
+	</values>
+</data>

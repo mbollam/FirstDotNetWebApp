@@ -1,0 +1,14 @@
+<data>
+    <include path="..\..\Keys\Ecolab.Conduit.MyServiceSyncService.Web.params.WithoutEncryption.xml" />
+
+    <values>
+      <connection-string>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=TRASAR3PreProd;Data Source=USNAPWPDB90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=600;</connection-string>
+		  <my-service-connection-string>Integrated Security=false;User ID=tcdwebuser;Password=USNAPWPdb90;Initial Catalog=myServicePreProdQA;Data Source=USNAPWPDB90;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=6000;</my-service-connection-string>
+		  <tcd-cube-connection-string>Provider=MSOLAP3.0;Integrated Security=SSPI;Initial Catalog=TCDPreProd;Data Source=USNAPWPDB90</tcd-cube-connection-string>
+		  <hc-forms-connection-string>Integrated Security=false;User ID=userEnvision;Password=fRe2ADusupha;Initial Catalog=HCForms;Data Source=USEAGAN6457P;pooling=true;Min Pool Size=5;Connection Lifetime=0;Connect Timeout=6000;</hc-forms-connection-string>
+		
+		  <export-path>C:\Ecolab\envision\backup</export-path>		
+		  <enable-washfloor-sync>true</enable-washfloor-sync>		
+		  <timer-auto-reset>true</timer-auto-reset>
+	</values>
+</data>

@@ -1,0 +1,88 @@
+<data>
+    <include path="..\..\Keys\Nalco.enVision.Web.params.xml" />
+
+    <values>
+        <admin-reports-link>https://stg-automation.nalco.com/AdminReports/reports.asp</admin-reports-link>
+		<reading-calculation>http://stg-appsvc.nalco.com/CPMT/api/ReadingCalculation</reading-calculation>
+		<from-email>rvempati@allianceglobalservices.com</from-email>
+        <to-email>rvempati@allianceglobalservices.com,vpydi@allianceglobalservices.com</to-email>
+		    <sensors-dashboard-edit-url>http://stg-envision.nalco.com/_layouts/envision/systemdashboard.aspx?ID=$$ControllerId$$&amp;Redirect=true</sensors-dashboard-edit-url>
+        <nalco360-reports-edit-url>https://envision.nalco.com/_layouts/envision/SystemDetails.aspx?tab=Alarms&amp;ID=$$SensorNumber$$</nalco360-reports-edit-url>
+        <search-location-api-address>https://stg-appsvc-envision.nalco.com/ContextService/api/Search/GetAllLocationsForUser</search-location-api-address>
+        <mdemvc-page-url>https://stg-automation.nalco.com/enVision4/mde/manualdataentry/</mdemvc-page-url>
+        <mde-config-page-url>https://stg-automation.nalco.com/enVision4/mde/manualdataConfiguration/</mde-config-page-url>
+        <data-charting>https://stg-envision.nalco.com/_layouts/enVision/TankDetails.aspx</data-charting>
+        <configurator-link>https://stg-3dtrasarcontroller.nalco.com/Configurator/Home/Index</configurator-link>
+        <next-gen-upload-file-location>\\USNAPWPTC90\Uploads</next-gen-upload-file-location>
+        <envision-app-service-base-url>http://USNAPWPSA20:8022/ContextService/</envision-app-service-base-url>
+        <cls-search-action-url>http://USNAPWPSA20:8022/ContextService/Hierarchy/</cls-search-action-url>
+        <basic-search-url>http://USNAPWPSA20:8022/ContextService/api</basic-search-url>
+        <get-user-access>http://USNAPWPSA20:8022/ContextService/locations/HasLocationAccess?facilityId={0}&amp;userid={1}</get-user-access>
+        <context-service-client-base-url>https://stg-textilecare.envision.ecolab.com/ContextService.proxy/api/</context-service-client-base-url>
+        <context-service-server-base-url>http://USNAPWPSA20:8022/ContextService/api/</context-service-server-base-url>
+        <tcd-configurator-url>http://USNAPWPTC20:3333/</tcd-configurator-url>
+        
+
+        
+        <connection-string>
+            76492d1116743f0423413b16050a5345MgB8AHQAUQBVAFEAaQAvAHkAdQBjAFYAbwBaAHkAWAArAEoAcABCAGMAagBuAHcAPQA9AHwANAA3ADkAZAA2ADkAYQAwADUAZQBhADUAYgBkAGMAYwBmADYANgA4ADMAYgAxADQAMAA3AGMAMQA2ADQAOAA2ADQAYQBiADgAMwBkAGEAZQA1ADYANwBmAGUANgAwADAANAAzADAAZABiAGIAYwAzADgAYQAzADMANwBjADYAMwBiADIANgA2AGQANQBkAGMAZgBhADUAYwA2AGEAMABmAGQAYwBkADcAOABlAGEAYQBhADUAMwBlAGEANQAyADAAMwAxADEAYwBkAGYAZgBkADUAYwA3ADYAOQA4ADYAYwBiAGIANgA3ADcANABhAGYAMQAwAGYAMAA3ADYAMQBjADAAOQA4AGMAYgA1ADkAMQA4ADIAMwBmAGEAZABiADUANQA3ADEAMgBlADUAMQBkADkAMABkADcAOAAzAGMAYQA2ADUAMQAyADIANgA5ADYAZAA1ADAAOABhADYAYwAzADYAZgA5AGEAZAA2ADEANgBkADgAYgA0ADcAZAA2AGYANwA2ADQAMwBjAGQAMQAwADIAYQA1AGIAMgBkAGYAZQAyAGIANgA5AGYAZAAzADMAZgBmADQAYgA3ADcAMwA3AGIAYgBiADUAMQBjAGQAYgAxADQAZAAyAGUANABkADUANAA3AGEAMAA3AGQANQA1AGMAMwBjADIANQA4ADQAZQBjADUAYgA2AGIANgAxADEAYwBiADUANQA0AGYAOAAxADMAMABlAGUANgBiADIAMABhADQANgBhAGIAMwBkAGQANwAyAGIAMwBiAGQAMwA1ADMAZAA0AGEANgBmADkAYQA4ADgANgA5AGYAZABiADgAYwBmADIANQBiAGUAMwA3ADkAYQAxADUAYgBlADAAYQBmAGIAYQA5ADcAOQBhADEAYQA5ADcANQBkADIAYQBhAGIAMQBkADAAOQA1ADMAZgA1AGUANABmAGMANgA5ADEAMQBhADQAMQA0AGEAYgBjADcAYgBkAGMAZgAwADEAMgBjAGEANQA0ADUAOQAwAGEAMgAwADQAZgAzADAAYgBiADcAZAAyAGIAYQBmAGUAZgA0ADEAOABlAGIAMgA4ADIANgA0ADMANwA5ADUAZAAzAGYAYQA1ADkAYwAxADQAZQA2AGUAZAA2ADEAZgA2ADEAOQBmADgAZgA4ADAAMwAxAGMAYgBlADEAZQBiAGEAYgBiADMAYgBjAGUAMABiADIAZQBlADQANwBhAGUAYgBjADUAZAAxAGUAMQAxADQAZgBiADEAZAAzAGEAYwBhADAAZABmAGIANQA3ADEAMgA4AGIAZQBhAGMAOQBjADIAOAA4ADAAOAAyADQANgA3ADIAYQA3AGEANgAyADMANwA0AGEAMgBiADAAZAA3AGYAZQAyAGYAMwBjAGYAZQBlADcAYQAwADgANQAyAGUAMgAxAGEAMQAzAGMANwA2ADkAYQA5ADUAOAAzAGEAZAA0ADYAZgA0AGIAOABhADQAMQA1ADcAYQAzADIAZABhADgANwA5AGUANABlAGYANQBjAGEAMgBiADEAYwA3AGIANAA5ADEAYQBmADUAYgA1AGIAYQAzADEAZAA5ADAAMABiADgANgBiAGQANgA2ADUAMABhADMANgAyAGQAYgBiADIANAAyAGYANgBiADMAOAAyADUANABkADgAOAAxADkAMABlAGEANQA5ADQANwAyAGIAMgA4ADYANwA1AGMAZgBlADAAZgBhAGIAOABjADEANQBjAGYAZQBmAGIAOAA4ADUAZgA0AGMANwA1AGMAMQAxAGUAYQBkADQAYwA2ADEAZgA4ADcAMAAzADEAYwBiADEAMwAzADAAYQBiADMAZAA3ADkAMwAxAGQANgA5ADIAYwA4ADkANgAyADYAYwA4AGYANQBjADcANgBmADAAMwBmAGQANwBkADYAYQA3AGEAYgA1AGMAYQBhADgANgAwAGQAYgBlADEAMgBiADMAMwBkADgAMQBmAGUAZABlADAAZgAxADYAOQA4ADgAYQA4ADQAMQAzAGYANwAyADkAYgA1ADUA
+        </connection-string>
+		
+		    <cube-connection-string>
+            76492d1116743f0423413b16050a5345MgB8AEYAdABkAEoAUgAyADkAagAwAFgAawB2AE0AeQBJAHAAZgAyAGgAagBMAHcAPQA9AHwAZAAzAGIAZgBhAGUAMABjADQANABlAGUAZQA3ADAANgBjADcAOQA2ADMAMgAxADgAZQA4ADAAZQA4ADMAMAA5ADAAMgA3ADIAZABiADcAOQA3ADAAYQAxADMAZgAyADIAYwAxAGIAMAA0ADAANgAxADAAZQBmADAAZAA4AGQANwAzADgAYQBiADkAMgBjADYAZAA4AGUAZgBkAGMAMgA4ADIAYQBlAGMAMwA5ADMAOABjADMAYQBlADQAZQA3AGMAYgAyADMAZgA4ADQANwA2ADMAYQBhADcAYQA0AGUAYgAzADIANQBiADMAZgAwADcANwA2AGIAZgAwAGUAMABkADcAOABjAGYAYgBjAGIAZgBlADIAYQBjADgAMgA0ADMANAA5ADIAYgA0AGEAZQA5AGYAMQAyADkAMAA0AGQAZgBlAGQAMABmADgAYgA3ADUANQA0ADAANQA3AGYAZAAxADkANgA1ADkAOABiAGMAYgAxADkAYwA1AGMANQA0ADQAMQA2AGEANwBmAGIAMgA1AGMAMQA5ADQAOABkADMAYwA4ADIAOAA2ADIANgBmADkANgAyAGEAMwAwADMANQA2ADkAOQAyAGQAYgBjADUAYgBkAGMAYwBiAGYAYwA3ADgANgA5AGIAMgA1AGEAMQAzADgAZQA5ADMAYQA5ADYANwBlADMAYgAxAGQAZgA2AGQAMgAxADQANQA0ADUAOABmADEAOAAzADIANwBmAGQAYgBjADAANAA1ADYAMwBkAGIAZAA2ADQAMgA5ADEAYgAxADcAZABjAGQAYQBiAGQAOQA3AGIANQBmAGUAMgBlAGQAOAA2AGUAZQAzADgAMgAyADAANgBkAGIAZAAxAGMAMQAxADgANwA2AGUAZQA2AGYAOQA4ADgANAAyAGYANQA4ADYAMgA1AGQAMQBlADIANgBkADkAZQBjAGIAMAA5AGIAYQA4AGUAYgA3AGMAMgA5ADkAMABmADcAOAA5ADAAMQA2AGMAMwBkADMANwA2ADQAMwA1AGIAOQBjADEANAA5ADMAZAA4ADMANwAyAGMAYwBlADUAOQBiAGUAYQA4ADQAYQAzAGQAMAAzADkAMQA5ADcAMQBlADcAMwA3ADcAYwA2ADIAZQBhADEAMwA2AGIAMwBhAGYAMAAxADkANwAzADUAZgAyAGMAZAA0ADIAZgAwADYAZAA4ADMANAA2AGIAOABjAGUANgBiADIAYwBjADQAYQBkAGUANwBhADgANAAyADIAZABlADcANABkAGUAYgBjAGIAZQAzADQANgBmAGEAZQA0ADcAMgBmADYANwBiADUANAAxADMAMAA3ADAAYgAwADgANwAxAGIAZgAyAGMANwA4ADMAYQBmADYAOAA2ADQAOABkADQANgA1AGEAOQBhADgAMgBhAGQANgA5AGIANQAwAGQAYwA2AGEAZQA=
+        </cube-connection-string>
+		
+		    <myservice-connection-string>
+			      76492d1116743f0423413b16050a5345MgB8AEoAWgBHAFoAMgB1AEYAdgA3AFEAaABjAGQAcQBiAHcAeQBSAHUATgArAGcAPQA9AHwAZQBmAGIAMgBlAGYAYQAyAGMANAAzADAAZAA1AGIANAAwADkANwA3AGUAYwBhAGYANgAxADkAMgA0AGEAZQBmAGIANAA1ADYAMwA5ADYAOQA3ADUAZQA2ADEAYwA1ADUAYQBiADcANgA0AGIAZABhAGQANgBhAGUAMwBkADEAZABlADkAMwBlADgAOAA5ADEAMwBkADYAMwBmADkAYwAxAGIANAAxADYANgAwAGQAMABmAGMAYwA3ADMAMABkADgAMwAxAGQAYQAyADMAYwBjADcAZgBkAGQAYgBhADkAYwA5ADgAZQAwADgAZAAzAGUANwA2AGIANgBkADIAMQBjADYAZgA1ADgAMwA1AGQAYwAwADEANgBkADMAZgA4AGYANABkAGQANwAxADcAMQBjADkAZgA5ADkAZgA1ADgANwAyADkANgBlADEAOQBhAGUANwBiAGYANQAyADYAMgBlAGIAMAA0ADYAYQAyAGMANgBjADcAMQBlAGYAZAA5ADkAMAA5ADIAZQAxADcAMQA1AGMAZQA1ADEAMABlAGUANQA5ADkAOQA2ADIAZgAxADkAZgAxADMAOQBmADUAYgA4AGMAOQBlAGUANwBjADcANQBiAGIAZgA5ADIAMAA4ADMANQAwAGQAOQA1ADUAMgBlADMANQA1ADEAMQA3AGEAYwAxAGYAZgA0AGQANQAzADAANwBlAGIANwA2ADMANwBkADgANAAzADEAYQBkAGQAOQBjAGQAYgA4AGIAMwAxAGEAZQBhADcAYwAwADcAYQBkAGEAMAA0AGMANgA2AGIAOQBjADkANQBlAGMAYgA4ADIAZQA1ADYAYQAyADQAOQBkADMANQAwADkAOABjADYAYwAwADkAZQBkAGUAZQAyAGQAMAAwAGMAZAA3ADcANgBhAGYAMABhADIAZAA3ADIAOABiAGEANgA1AGYAMAAyADQAZAA4AGEAMAA4ADMAMwAxADMANQBiAGYANgBlAGQAMQBlADgANgBjADgAZABiADYAZAAyADAAZQA2ADMAMgBhADEANgAyADUAYwAyAGUAMAA4AGQAZABkAGQAOABmADgAOAA4ADMANgA1ADgAOQBkADEAMgA0AGIAZQA2ADQAOQAxAGYANAA2AGIAZQAyAGEAMwA3ADUANABhAGEANQA2ADYAMAAyADgANQBlADUAYQBlADkANwA4ADIAZgAyADMAYQBiADIAMQBmADEAZQBjADcAZAAyAGIANABhADYAOQA3AGMAZAA5ADcAOAA0AGMANQBjADIAMgA0ADIANAA5ADkANQA4ADUAYQAzADQAYgBlADgAYgBiADIAZgBjADMAYgBkADgAOABjADYAMwAzADkANAA3ADYANgA0ADQANwA4AGMANgBlADIAZgAxADYANABkADIAMgAwADIAMAAzAGUANgBkADMAMQBhAGYANwBjADYAYgAxADEANAA2AGQAOQA2AGEAMwBiAGQAZgBjADkAOQAxAGEAZQAxADQAOQA5ADIAMwAwADMAZQAwAGUAYwBhAGMAOQA1AGYAMgAzADYANwBhADkANABmADgANgBhADgANwBlADEAMwBkAGUAZAAxADEAYQBmADMANwA3ADAAZABhADQAZgA1ADEAMQA3ADQAZgBlAGEAOABhADQAZgAxADAANwA3AGUANwA3ADYAYQAyADgAMgBmAGIAYwA5AGUAOABmADUAMwAwAGYAYgBiADYAMgA1ADcAMwBiADYAYwBkADMAOQBjADIANAA5ADcAMQA5ADcAMgA4ADMAMgAzAGEAMgAwADYAMwAwADIAOQAxAGYAMgA2ADAAMQA5ADgAOAA4AGYAMwA4ADAAOQAyAGIAZABiADEANQA3AGEAOQAxADgANQA1ADgAZgA2ADcAYwBiADgAZQBkAGYAYgBkAGYAZQAxADcAMQA5ADcANABiADIANgBlADAANQBhADcANwAwAGMAYgBkADIAOQBjADEAZABkADYAMAA5ADEAMwA4ADgAZQA5ADkAYgA5ADAAZQA5AGMAMQAwADQA
+		    </myservice-connection-string>
+		
+		    <connection-strings>
+			      76492d1116743f0423413b16050a5345MgB8AHAAbgBaAEgAdgBxAFEARQAxAEIAawByADkAdwB4AEIAaQAzAHYAdQBDAHcAPQA9AHwAMAA1ADUANgBiAGQAMgA0AGIANwA1ADkAMgAzAGIAMgA2ADkAZgA3AGMAOAA4ADUANwBhAGMAMwBjAGYAZABmADQAOAA5AGUAYwA4ADEAMwBkAGMANQBiADIAMABjADcAYgA2ADUAOABlADgAZQBjAGUANgBiADMAYgBhAGUAZgBkAGYAMABmAGMAZABiAGIAYwA3ADEAYgBmADUANAA4ADkANABhADYANQAzADgAZQA4AGQAMgA1AGMAZgA5ADAAOQBhADYAMQBjAGMANQAyAGYAMwAxADkAZQAwADgANwBiADkAYwA1ADUAOABmAGQANAAxADMAYgAwAGUAOAAyAGQAZgAzAGEAMQA0ADcAMwAyAGEAYQA0AGEAYwAzADgAMgA1AGQAOQBlAGYAMABiAGMAZQAxADAAYgAwADYANAA0ADIANgBiADYANwA4AGIAMwBkAGYAOQBkADkAZQBiADUAZQA2ADEAMwA0ADAAYQAwAGMANQAyAGMAMgBkADkANgA5ADMANgBkAGUAZQBmADUAYwBlAGYAMAA3ADIANAA0AGUAYgA0ADEAZgAzADgAMwA1ADcANgA2AGQAZQA2ADAAZAAyAGEAYQA2AGEAOQBjADgAYwAyADEAYQA3ADAANwBkAGMAYgBkAGIAOQAxADEANQA0ADUAZABlADMAZgBmAGIANAA5ADAAMgBjADIAOQA5AGEANwAxAGUANwAzADYAOQAxAGMAZgBlAGEAMABkADkAMAA4AGQAYwA0ADkANABjADIAYQA0ADQAZABhADMAMABiADcANwA1ADYAOQAyADEAZQA1AGMANwAzAGYAMQA3AGUAYQAxADMANAA1ADEAOQBjAGMAMwA1ADAAZAA2ADEANAA0ADUAMwBlAGYANABhADYANwAyAGUANwBlADUAMAA1ADIAZAA1ADYAOAA3AGEAYgAwADUAZgBjADUAOAA0ADMAYwAzAGIANwA4AGYAMgAyADkANwAyAGQAZQAxADcAZABlADkAMwBlADgAZgBlAGUAMAAzADgAOAAwADgANQBhADEAYQA5ADUANgBmAGUAYgA3AGEAMQA4ADAAMABmAGIAZQAwADcANwAzAGIAOAA5AGUANQBhAGEANgA1ADgAOABiAGYAOQAwADYANAAxADEAYQA0AGUAMQA2ADgANAAyAGUAZgAyADYANgBhADAAOAA5AGYAZABhADYANwA0ADQAOQAyAGUAZgBiADgAMwBjADMAOABiADAANAA3ADYAOAAxADMAYgA5ADQAZQA2ADEAZgAzADYAMgAzADAAZgA4AGUAMgBlADAAZQAwADMAMQBhAGQAOQA5AGEAZQAyAGEAMAA4ADYAMABiADkAMQBiADIAYgAwADkAOAAwADcAMQAzADYAZgA3ADgAYwAwADUANQBkADMAMwA2ADMANwBkADAANgA2AGUAMgA1ADkAOQBlADQANAA2ADcAMwAyAGYAMQAzAGQAMQBkAGIAYQBiADkANQA2ADQAOQAxADkAMQA3AGUANgBiADYAYwBjADUANwBlAGEAOQBkADYAYgBhADAAYwA4AGQAZgA1ADEAYQBhAGQANwA1AGMAMwAxADgAZgA2ADEANwAxADAAYQBmAGIAYQA5AGUANAA0ADUAMgBkAGQAZgBiAGIAZgA0ADMAOAA2ADUAZQBkADAANABkADUANgAyAGQANQAzAGIAMwBmADUANwAxADYAMgA4ADYAMQA2AGEAZQBkAGUAMABiAGUAMAA4AGYANwBlAGEAMABkADYANgAyAGIANwBhADQAMgAxAGIAMAAzAGIAMABjADEAZQA0ADYAMQA0ADMANgBkADgAOAA5AGQAMQBjAGYAZAA3ADIAZQAxAGQAOQA1AGYANAA1AGMAOQBiAGIAZABkADQAYgBlADEAZgBmAGUAMAA5ADUAZgA5AGQANgAxADgANwA2AGUAMQA2ADUAMABmAGUANgAxADIANwAyAGIANgAxADEAMABjADgANQAzADkAOQAzADUAMQBiAGMANwBkADcAYwBhADQA
+		    </connection-strings>
+		
+		    <debug>false</debug>
+			
+			<sitemindermodules>
+				<add name="CASiteMinderWebagentModule" preCondition="integratedMode,bitness64" />
+				<add name="CASiteMinderWebagentModule-32" preCondition="integratedMode,bitness32" />
+				<remove name="UrlRoutingModule-4.0" />
+				<add name="UrlRoutingModule-4.0" type="System.Web.Routing.UrlRoutingModule" preCondition="" />
+				<add name="ErrorLog" type="Elmah.ErrorLogModule, Elmah" preCondition="managedHandler" />
+				<add name="ErrorMail" type="Elmah.ErrorMailModule, Elmah" preCondition="managedHandler" />
+				<add name="ErrorFilter" type="Elmah.ErrorFilterModule, Elmah" preCondition="managedHandler" />
+				<remove name="BundleModule" />
+				<add name="BundleModule" type="System.Web.Optimization.BundleModule" />
+				<add name="Glimpse" type="Glimpse.AspNet.HttpModule, Glimpse.AspNet" preCondition="integratedMode" />
+				<add name="RemoveEtagModule" type="Nalco.enVision.Library.WebShared.RemoveEtagModule, Nalco.enVision.Library.WebShared" preCondition="integratedMode" />
+			</sitemindermodules>
+			
+			<siteminderhandlers> 
+				<add name="handler-wa-32" path="*" verb="*" modules="IsapiModule" scriptProcessor="E:\Program Files\CA\webagent\win32\bin\ISAPI6WebAgent.dll" resourceType="Unspecified" requireAccess="None" preCondition="classicMode,bitness32" />
+				<add name="CASiteMinderWebAgentHandler-fcc-32" path="*.fcc" verb="*" modules="CASiteMinderWebagentModule-32" resourceType="Unspecified" preCondition="integratedMode,bitness32" />
+				<add name="CASiteMinderWebAgentHandler-ntc-32" path="*.ntc" verb="*" modules="CASiteMinderWebagentModule-32" resourceType="Unspecified" preCondition="integratedMode,bitness32" />
+				<add name="CASiteMinderWebAgentHandler-ccc-32" path="*.ccc" verb="*" modules="CASiteMinderWebagentModule-32" resourceType="Unspecified" preCondition="integratedMode,bitness32" />
+				<add name="CASiteMinderWebAgentHandler-scc-32" path="*.scc" verb="*" modules="CASiteMinderWebagentModule-32" resourceType="Unspecified" preCondition="integratedMode,bitness32" />
+				<add name="CASiteMinderWebAgentHandler-kcc-32" path="*.kcc" verb="*" modules="CASiteMinderWebagentModule-32" resourceType="Unspecified" preCondition="integratedMode,bitness32" />
+				<add name="handler-wa" path="*" verb="*" modules="IsapiModule" scriptProcessor="E:\Program Files\CA\webagent\win64\bin\ISAPI6WebAgent.dll" resourceType="Unspecified" requireAccess="None" preCondition="classicMode,bitness64" />
+				<add name="CASiteMinderWebAgentHandler-fcc" path="*.fcc" verb="*" modules="CASiteMinderWebagentModule" resourceType="Unspecified" preCondition="integratedMode,bitness64" />
+				<add name="CASiteMinderWebAgentHandler-ntc" path="*.ntc" verb="*" modules="CASiteMinderWebagentModule" resourceType="Unspecified" preCondition="integratedMode,bitness64" />
+				<add name="CASiteMinderWebAgentHandler-ccc" path="*.ccc" verb="*" modules="CASiteMinderWebagentModule" resourceType="Unspecified" preCondition="integratedMode,bitness64" />
+				<add name="CASiteMinderWebAgentHandler-scc" path="*.scc" verb="*" modules="CASiteMinderWebagentModule" resourceType="Unspecified" preCondition="integratedMode,bitness64" />
+				<add name="CASiteMinderWebAgentHandler-kcc" path="*.kcc" verb="*" modules="CASiteMinderWebagentModule" resourceType="Unspecified" preCondition="integratedMode,bitness64" />
+		   
+				<add name="AppSvcProxy" path="*.proxy" verb="*" type="Nalco.enVision.Web.Handlers.AppServiceProxy, Nalco.enVision.Web" preCondition="integratedMode" />
+				<add name="ChartImageHandler" preCondition="integratedMode" path="ChartImg.axd" verb="GET,HEAD,POST" type="System.Web.UI.DataVisualization.Charting.ChartHttpHandler, System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+				<add name="ExportHandler" path="*.ashx" preCondition="integratedMode" verb="GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS" type="Nalco.enVision.Web.Areas.SystemSettings.Models.SystemSettingsCommonHandler.ExportHandler" />
+				<add name="Glimpse" path="glimpse.axd" verb="GET" type="Glimpse.AspNet.HttpHandler, Glimpse.AspNet" preCondition="integratedMode" />
+
+				<remove name="ExtensionlessUrlHandler-Integrated-4.0" />
+				<remove name="OPTIONSVerbHandler" />
+				<remove name="TRACEVerbHandler" />
+				<add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
+			</siteminderhandlers>
+			<is-apiFilters>
+				<filter name="SiteMinder Agent" path="E:\Program Files\CA\webagent\win64\bin\ISAPI6WebAgent.dll" enabled="true" preCondition="classicMode,bitness64" />
+				<filter name="SiteMinder Agent-32" path="E:\Program Files\CA\webagent\win32\bin\ISAPI6WebAgent.dll" enabled="true" preCondition="classicMode,bitness32" />
+			</is-apiFilters>
+	</values>
+</data>

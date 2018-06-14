@@ -1,0 +1,37 @@
+<!--
+    Contains parameters for the Web.config file that belongs to Mozart web application.
+  -->
+
+<data>
+    <nodes>
+        <!--  App Settings -->
+        
+		<_parameter _name="from-email" _xpath="//configuration/appSettings/add[@key='FromEmail']/@value" />
+        <_parameter _name="to-email" _xpath="//configuration/appSettings/add[@key='ToEmail']/@value" />
+		<_parameter _name="sensors-dashboard-edit-url" _xpath="//configuration/appSettings/add[@key='Sensors.Dashboard.EditUrl']/@value" />
+        <_parameter _name="nalco360-reports-edit-url" _xpath="//configuration/appSettings/add[@key='Nalco360.Reports.EditUrl']/@value" />
+		<_parameter _name="erb-web-base-url" _xpath="//configuration/appSettings/add[@key='ERBWeb.BaseUrl']/@value" />
+        <_parameter _name="erb-service-base-url" _xpath="//configuration/appSettings/add[@key='ERBService.BaseUrl']/@value" />
+		<_parameter _name="search-location-api-address" _xpath="//configuration/appSettings/add[@key='SearchLocationApiAddress']/@value" />
+        <_parameter _name="context-service-client-base-url" _xpath="//configuration/appSettings/add[@key='ContextServiceClientBaseURL']/@value" />
+        <_parameter _name="context-service-server-base-url" _xpath="//configuration/appSettings/add[@key='ContextServiceServerBaseURL']/@value" />
+                
+		<!-- Miscellaneous -->
+        <_parameter _name="connection-string" _xpath="//configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" _encrypted="false" />
+		<_parameter _name="cube-connection-string" _xpath="//configuration/connectionStrings/add[@name='TcdCubeConnection']/@connectionString" _encrypted="false" />
+		<_parameter _name="elmah-sqlserver" _xpath="//configuration/connectionStrings/add[@name='elmah-sqlserver']/@connectionString" _encrypted="false" />
+		
+		<!--  Application Settings -->
+		<_parameter _name="connection-strings" _xpath="//configuration/applicationSettings//setting[@name='ConnectionString']/value" _encrypted="false" />
+		<_parameter _name="legacy-envision-base-url" _xpath="//configuration/applicationSettings//setting[@name='LegacyEnvisionBase']/value" />
+		
+		<!--  Nalco Settings -->
+		<_parameter _name="domain-name" _xpath="//configuration/Nalco/enVision/SharePoint/add[@key='DomainName']/@value" />
+		<_parameter _name="user-name" _xpath="//configuration/Nalco/enVision/SharePoint/add[@key='Username']/@value" />
+		<_parameter _name="password" _xpath="//configuration/Nalco/enVision/SharePoint/add[@key='Password']/@value" _encrypted="false" />
+		<_parameter _name="service-url" _xpath="//configuration/Nalco/enVision/SharePoint/add[@key='ServiceUrl']/@value" />
+		<_parameter _name="web-url" _xpath="//configuration/Nalco/enVision/SharePoint/add[@key='WebUrl']/@value" />
+		
+		
+    </nodes>
+</data>

@@ -1,0 +1,31 @@
+<data>
+    <include path="..\..\Keys\Nalco.enVision.ReportScheduling.ReportProcessing.Web.params.xml" />
+
+    <values>
+               
+        <connection-string>
+            76492d1116743f0423413b16050a5345MgB8AFEATgBHAHgAYgA5AFYANgBaADQAUwBKACsAVQBxAHUAaABIADUAVABBAFEAPQA9AHwANQBmADEANwAwADYAMQBlAGYAYwBkADEAMwA2ADUAYgBhAGQAOAA1AGEAYwAzADUAMQAwADAAYQA3ADQAOABhADIAMQAxAGMAMQBhADIAZQA4AGEAOAA5ADIAYwBmAGQAMQBjAGUAYgA5ADAAYgBjAGMAZQBmADcANQAyADkANQA2ADQANgBkADAANwAyAGQAZABlADkAZgBhADIAOAA4AGIAZQA2ADMAOABkADEAZgAyADgAMQA4ADMANgBkADEAZgAyADkAMgBhAGQAYwA2AGYAYQBiADIANwAyAGQAOQA1ADMAOQA4ADYAOAAxADMAZAA4AGYANAAzADEAYgA1ADAAYgBjADUANAA1ADIANwA4ADkAZgBkAGEAOQA1AGMAZABiAGUAOQBlADAAZQAzAGMAZgA1ADgAZAA2ADUAMQAyADEAYgA5ADYAYwBkADgAZgAxADUAYQAyADEAMgBkAGIAZAAyAGQANgA4AGMANABhAGMAZABkAGEAYgBlADMAYwA2AGQAYQA5ADkAMQAxAGMAMwA1ADMANQAzADEAOQA2AGQAMgBjADgANgBlAGEAZAA4ADIAZgBlAGQAOABhAGYAMQBiADYANgBjADAAMAA1AGEAOABiAGMAZQA5AGYAOAA3ADAAZQA5ADEANAAwAGIANwA0ADkAOQAzADAANABkADYAYgA2ADgAMQA2AGMAMgA4ADMAZgA2AGMAMgAwADIAYQA2ADIAMQA2AGUAOQBhADMAOQBmAGQAMAA5ADcAOABiAGYAOQBiADkAYQA3ADgAYwA4ADQANwA3AGMAZAA0ADcANgA4ADIANQBkADYAZgA2ADEAYwA0ADgAMQA3AGYANAAyADIAMQAyAGQAYwA2ADIAZQAxADEANwBkADIANgBlAGUANgBlADYANgAyADEAMwA3ADIAZAAyAGIAMQAzADUAZgA3ADAAMAA2ADIAYQA5AGQAZgBhADkAZgA0ADYANABmADAAZQBkADYAMgAzAGQAOAA2ADcAYwBiADAANABlAGEANgBlAGEAMwA1AGEANwAyAGIAZABkAGQAMgA2AGEAOAAzADYAYwBmADQAOQA2AGMAYQA3ADAANABkAGUAOABlAGUANwA3AGIAMABkADYANgA3AGUANAA3ADQAZgBhAGQAMABkADYAOQBmADEAMQAyADIAYQA4ADQAZQAwADEAMQA1ADUAZgBiADYAOABiADUAYgBjADQANwA4ADEAYQBmADMAMQBmADgAZgBmAGEAMwA5ADcAOAA0AGUAMAA0ADIAYwAwAGYAZgA2AGUANwBiAGEAYgA1ADIAMQAwAGQANAAwAGQAMQAxADcANQBmADYAMwA5ADgANAA5AGMAZAA3ADEAOQA3ADYANAA4ADAAOAA4AGUAMQA2AGMAMQAyAGIAMwBjADkANQA4ADgAZgBlADYANAA1AGEAMQAzADQAMgBmADIANAAwAGIAYQBjAGMAZABkADgANABhAGQANgAzAGIANgA2ADcAZgA0ADIAZQBjAGUAOQBlAGYA
+        </connection-string>
+				
+		<support-email>hari_rao@epam.com</support-email>
+		<basic-search-url>https://stg-appsvc-envision.nalco.com/ContextService/</basic-search-url>
+		
+		<minutes-before-retry>10</minutes-before-retry>
+		<minutes-for-time-out>10</minutes-for-time-out>
+		<max-attempts>3</max-attempts>
+		<pdf-source-path></pdf-source-path>
+		<report-service-url>http://usnape4tcap01s:1100/</report-service-url>
+		<service-login>dirk.de.brabanter@ecolab.com</service-login>
+		<service-password>3DTWeb09</service-password>
+		<chart-server-url>http://127.0.0.1:3003</chart-server-url>
+		<phanthom-js-exe-path>D:\TextileCare\EcolabReportSchedulingService\Highcharts-4.2.0\js</phanthom-js-exe-path>
+		<hard-code-recipients>True</hard-code-recipients>
+		<pdf-share-path>D:\TextileCare\EcolabReportSchedulingService\PDF</pdf-share-path>
+		<smtp-user-name></smtp-user-name>
+		<smtp-password></smtp-password>
+		<smtp-domain></smtp-domain>
+		<from-email-address>NoReply@ecolab.com</from-email-address>
+		<service-prep-report-id>NoReply@ecolab.com</service-prep-report-id>
+		
+	</values>
+</data>
